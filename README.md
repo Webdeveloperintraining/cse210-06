@@ -15,7 +15,6 @@ root                    (project root folder)
 ```
 
 ## Authors
----
 * Jamin Pottle
 * Daniel Alvarez
 * Irvin Silva
