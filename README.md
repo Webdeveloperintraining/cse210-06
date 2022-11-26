@@ -2,8 +2,11 @@
 ## Description
 
 ## Project Structure
+---
+The project files and folders are organized as follows:
+```
 root                    (project root folder)
-+-- pong              (source code for game)
++-- pong                (source code for game)
   +-- game              (specific game classes)
     +-- casting         (various actor classes)
     +-- directing       (director and scene manager classes)
@@ -13,7 +16,6 @@ root                    (project root folder)
   +-- constants.py      (game constants)
 +-- README.md           (general info)
 ```
-
 ## Authors
 ---
 * Jamin Pottle
