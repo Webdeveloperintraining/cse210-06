@@ -5,7 +5,7 @@ class MouseService:
         """Gets the current mouse coordinates as a Point.
         
         Returns:
-            Point: An instance of the batter.casting.Point class.
+            Point: An instance of the pong.casting.Point class.
         """
         raise NotImplementedError("not implemented in base class")
 

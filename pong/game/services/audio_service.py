@@ -20,7 +20,7 @@ class AudioService:
         """Plays the given sound.
         
         Args:
-            sound: An instance of the batter.casting.Sound class.
+            sound: An instance of the pong.casting.Sound class.
         """
         raise NotImplementedError("not implemented in base class")
 
