@@ -16,9 +16,9 @@ class Collide(Movement):
     def execute(self, ball, left_paddle, right_paddle):
         '''
         Arguments:
-            ball: 
-            left_paddle: 
-            right_paddle: 
+            ball: Ball representation 
+            left_paddle: First player paddle
+            right_paddle: Second player paddle 
         '''
         if ball.y + ball.radius >= HEIGHT:
             ball.y_vel *= -1
