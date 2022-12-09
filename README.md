@@ -17,9 +17,11 @@ root                    (project root folder)
 ```
 
 ## Required Modules to run the program
+```
 Module PYGAME
 Pygame module page:
 https://pypi.org/project/pygame/
+```
 
 ## Authors
 ---
