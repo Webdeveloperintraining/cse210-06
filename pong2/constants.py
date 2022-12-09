@@ -14,3 +14,6 @@ BALL_RADIUS = 7
 
 
 WIDTH, HEIGHT = 700, 500
+
+
+
