@@ -1,3 +1,5 @@
+import pygame
+
 
 WINNING_SCORE = 10
 
@@ -11,6 +13,14 @@ BALL_RADIUS = 7
 
 
 WIDTH, HEIGHT = 700, 500
+
+
+pygame.init()
+
+WIN = pygame.display.set_mode((WIDTH, HEIGHT))
+SCORE_FONT = pygame.font.SysFont("comicsans", 50)
+
+pygame.display.set_caption("Pong")
 
 
 

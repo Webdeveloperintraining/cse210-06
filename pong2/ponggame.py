@@ -9,14 +9,6 @@ from physics.paddles import PaddleMovement
 from animate.animate import Animate
 
 
-pygame.init()
-
-WIN = pygame.display.set_mode((WIDTH, HEIGHT))
-SCORE_FONT = pygame.font.SysFont("comicsans", 50)
-
-pygame.display.set_caption("Pong")
-
-
 def main():
     run = True
     clock = pygame.time.Clock()
@@ -36,7 +28,7 @@ def main():
 
     while run:
         clock.tick(FPS)
-        draw.draw(WIN, [left_paddle, right_paddle], ball, left_score, right_score, SCORE_FONT)
+        draw.draw(WIN, [left_paddle, right_paddle], ball, left_score, right_score)
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
