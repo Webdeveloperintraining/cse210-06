@@ -1,6 +1,3 @@
-import pygame
-
-
 
 WINNING_SCORE = 10
 
