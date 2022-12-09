@@ -1,15 +1,25 @@
-
 from physics.movement import Movement
 from constants import *
 
 class Collide(Movement):
-    
-    
-    def __init__(self) -> None:
+    """
+    Controls the behavior of the ball when hits a paddle
+
+    """
+    def __init__(self):
+        '''
+        Constructs a new movement using the specified KeyboardService.
+        '''
         super().__init__()
         
     
     def execute(self, ball, left_paddle, right_paddle):
+        '''
+        Arguments:
+            ball: 
+            left_paddle: 
+            right_paddle: 
+        '''
         if ball.y + ball.radius >= HEIGHT:
             ball.y_vel *= -1
         elif ball.y - ball.radius <= 0:
