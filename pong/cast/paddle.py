@@ -2,20 +2,39 @@ from constants import *
 import pygame
 
 class Paddle:
+    """
+    what we want from the paddle is  x , y , width and height
+    we will chenge x and y base on the movement of the paddle 
+        x = X-coordinate
+        y = Y-coordinate
+        width = width of the rectangle
+        height = height of the rectangle
+    """
     COLOR = WHITE
     VEL = 4
 
     def __init__(self, x, y, width, height):
+        """Constructs a new Paddle."""
         self.x = self.original_x = x
         self.y = self.original_y = y
         self.width = width
         self.height = height
 
     def draw(self, win):
+        """
+        gets the window 
+        returns:
+        draw the rectangle. 
+        """
         pygame.draw.rect(
             win, self.COLOR, (self.x, self.y, self.width, self.height))
 
     def move(self, up=True):
+        """
+        gets tru or falso 
+        returns:
+        help in the movement of the paddle 
+        """
         if up:
             self.y -= self.VEL
         else:
