@@ -20,12 +20,12 @@ def main():
 
     # creates paddles for left side and right side
     left_paddle = Paddle(10, HEIGHT//2 - PADDLE_HEIGHT //
-                         2, PADDLE_WIDTH, PADDLE_HEIGHT)
+                         2, PADDLE_WIDTH, PADDLE_HEIGHT, RED)
     right_paddle = Paddle(WIDTH - 10 - PADDLE_WIDTH, HEIGHT //
-                          2 - PADDLE_HEIGHT//2, PADDLE_WIDTH, PADDLE_HEIGHT)
+                          2 - PADDLE_HEIGHT//2, PADDLE_WIDTH, PADDLE_HEIGHT, BLUE)
     
     # creates the ball for the game
-    ball = Ball(WIDTH // 2, HEIGHT // 2, BALL_RADIUS)
+    ball = Ball(WIDTH // 2, HEIGHT // 2, BALL_RADIUS, ORANGE)
     
     # creates instances of Collide(), PaddleMovement() and Animate() to run the game
     handle_collision = Collide()

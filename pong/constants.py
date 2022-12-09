@@ -12,7 +12,10 @@ FPS = 60
 
 # colors used in game
 WHITE = (255, 255, 255)
+BLUE = (100, 100, 255)
+RED = (255, 100, 100)
 BLACK = (0, 0, 0)
+ORANGE = (255, 172, 28)
 
 # paddle and ball size
 PADDLE_WIDTH, PADDLE_HEIGHT = 20, 100
