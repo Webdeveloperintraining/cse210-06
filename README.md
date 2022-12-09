@@ -8,13 +8,11 @@ The project files and folders are organized as follows:
 ```
 root                    (project root folder)
 +-- pong                (source code for game)
-  +-- game              (specific game classes)
-    +-- casting         (various actor classes)
-    +-- directing       (director and scene manager classes)
-    +-- scripting       (various action classes)
-    +-- services        (various service classes)
-  +-- __main__.py       (entry point for program)
-  +-- constants.py      (game constants)
+    +-- animate         (various action classes)
+    +-- cast            (various actor classes)
+    +-- physics         (physics service classes)
++-- constants.py        (game constants)
++-- ponggame.py         (entry point for program)
 +-- README.md           (general info)
 ```
 
