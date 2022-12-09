@@ -6,7 +6,7 @@ from constants import *
 class Animate:
     
     
-    def draw(self, win, paddles, ball, left_score, right_score, SCORE_FONT):
+    def draw(self, win, paddles, ball, left_score, right_score):
         win.fill(BLACK)
 
         left_score_text = SCORE_FONT.render(f"{left_score}", 1, WHITE)
