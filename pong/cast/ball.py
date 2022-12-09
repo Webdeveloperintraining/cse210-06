@@ -23,7 +23,8 @@ class Ball:
         self.color = color
 
     def draw(self, win):
-         """Gets the window.
+        """
+        Gets the window.
         
         Returns:
             help to draw the ball
